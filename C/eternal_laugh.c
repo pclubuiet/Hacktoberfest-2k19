@@ -5,4 +5,5 @@ int main()
     while(1){
         printf("ha ");
     }
+    return 0;
 }
