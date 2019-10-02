@@ -26,5 +26,5 @@ if __name__ == "__main__":
         print('Operation Result : ', multiplication(number1, number2))
     if(operator == 'div'):
         print('Operation Result : ', divison(number1, number2))
-    if(operat == 'substract'):
+    if(operator == 'substract'):
         print('Operation Result : ', substraction(number1, number2))
