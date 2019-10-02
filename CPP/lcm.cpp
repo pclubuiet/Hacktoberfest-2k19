@@ -1,4 +1,4 @@
-//LCM of 2 Numbers
+//LCM of 2 Numbers CPP
 
 # include<bits/stdc++.h>
 
