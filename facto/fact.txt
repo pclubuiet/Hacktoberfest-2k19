@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n,i=1,a=1;
+    printf("Enter a number\n");
+    scanf("%d/n",&n);
+    while(i<=n){
+     a=i*a;
+     i++;
+    }
+    printf("Factorial of first %d numbers is %d",n,a);
+
+    return 0;
+}
+
