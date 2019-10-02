@@ -17,10 +17,10 @@ z = input("""1. Addition
 3.Multiplication
 4.Division""")
 if(z=='1'):
-	sum(x,y);
+	sum(x,y)
 if(z=='2'):
-	sub(x,y);
+	sub(x,y)
 if(z=='3'):
-	mul(x,y);
+	mul(x,y)
 if(z=='4'):
-	div(x,y);
+	div(x,y)
