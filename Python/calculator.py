@@ -2,7 +2,7 @@ def sum(a,b):
 	print("Sum is ", a+b)
 
 def sub(a,b):
-	print("Substraction is ",a-b)
+	print("Substraction is ",a-b);
 
 def mul(a,b):
 	print("Multiplication is ", a*b)
