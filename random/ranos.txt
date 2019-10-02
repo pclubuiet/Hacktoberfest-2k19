@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+  int lower,upper,count,b,a=0;
+
+  printf("Note: The minimum difference between upper limit and lower limit must be 10");
+  printf("\n\nlower limit = ");
+  scanf("%d",&lower);
+  printf("upper limit = ");
+  scanf("%d",&upper);
+
+  if(upper>lower & abs(upper-lower)>10){
+        printf("\n10 random numbers in [%d,%d] are\n",lower,upper);
+        b=lower+1;
+        while(a<=10){
+            printf("\n%d",b);
+            b++;
+            a++;
+            }
+        }
+  else{
+    printf("\n\nSorry wrong entry\n");
+    }
+  return 0;
+}
+
