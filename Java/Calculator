@@ -1,0 +1,75 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author gourav
+ */
+import java.util.Scanner;
+
+
+public class Calculator {
+    double a;
+    double b;
+    
+void sum(double m,double n)
+{
+    System.out.println("the sum is "+(m+n));
+}
+
+void sub(double m, double n)
+{
+    System.out.println("The differnece is"+(m-n));
+}
+
+void multiply(double m, double n)
+{
+    System.out.println("the multiplication is "+m*n);
+}
+
+void divide(double m , double n){
+    
+    if(n==0){ 
+    System.out.println("the second number is zero cannot divide");
+    }
+    else{
+        System.out.println("the answer is "+m/n);
+        }
+}
+    public static void main(String[] args) {
+        Calculator N=new Calculator();
+        Scanner sw= new Scanner(System.in);
+        System.out.println("Enter the first number: ");
+        double a=sw.nextDouble();
+        System.out.println("Enter the second number: ");
+        double b=sw.nextDouble();
+        
+        while(true){
+        int c;
+        System.out.println("enter 1: Addition");
+        System.out.println("enter 2: Subtraction");
+        System.out.println("enter 3: Multiplication");
+        System.out.println("enter 4: Division");
+        System.out.println("enter 5: Exit");
+        c=sw.nextInt();
+        
+        switch(c)
+        {
+            case 1:N.sum(a,b);
+                break;
+            case 2:N.sub(a,b);
+                break;
+            case 3:N.multiply(a, b);
+                break;
+            case 4:N.divide(a, b);
+                break;
+            case 5:System.exit(0);
+                break;
+            default:
+                System.out.println("Enter a valid choice");
+        }}
+    
+    }
+}
