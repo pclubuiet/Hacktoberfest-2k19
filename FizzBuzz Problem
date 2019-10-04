@@ -1,0 +1,12 @@
+#Basic program for python beginners
+
+num = int(input("Enter a number: " ))
+
+if num % 15 == 0:
+    print("fizzbuzz")
+elif num % 3 == 0:
+    print("fizz")
+elif num % 5 == 0: 
+    print("buzz")
+else:
+    print("You have entered", num, "\nplease enter number which is multiple of 3,5 or 15...!!")
