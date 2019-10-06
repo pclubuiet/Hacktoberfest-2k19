@@ -1,0 +1,16 @@
+1. Developer on Fire (developeronfire.com)
+Inpiring software developers tell their stories
+
+2. Talk Python To Me (https://talkpython.fm/)
+A podcast about PYthon and related technologies
+
+3. The ThoughtWorks podcast (thoughtworks.com/podcasts)
+The ThoughtWorks podcast plunges deep into the latest tech topics that have captured our imagination. 
+Join our panel of senior technologists to explore the most important trends in tech today, get frontline 
+insights into our work developing cutting-edge tech and hear more about how today’s tech megatrends will impact you.
+
+4. TechStuff (https://www.techstuffpodcast.com/)
+A show about technology, how it works, the people and companies behind it and how it affects our lives and culture.
+
+5. The Agile Revolution (https://theagilerevolution.com/)
+The podcast for all things agile
