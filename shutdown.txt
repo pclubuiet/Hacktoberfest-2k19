@@ -1,0 +1,11 @@
+To shutdown in cmd 
+ 
+Type "shutdown /s" to Shutdown your computer;
+
+Type "shutdown /r "to Restart your windows PC;
+
+Type shutdown /l" to Log off your computer
+
+Type "shutdown /a"to Abort the shutdown process before the timeout; 
+
+Type shutdown to know more choices in system shutdown process.
