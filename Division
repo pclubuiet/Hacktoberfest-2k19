@@ -1,0 +1,8 @@
+#include<iostream.h>
+void main()
+{
+float a,b;
+cout<<"Enter two numbers";
+cin>>a>>b;
+cout<<"The division is<<a/b;
+}
